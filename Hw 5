@@ -1,0 +1,21 @@
+package counter;
+
+public class Counter {
+    private int number;
+
+    public Counter(int startNumber) {
+        this.number = startNumber;
+    }
+
+    public void up() {
+        number++;
+    }
+
+    public void down() {
+        number--;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+}
