@@ -1,0 +1,13 @@
+package counter;
+
+public class Test {
+    public static void main(String[] args) {
+        Counter counter = new Counter(10);
+
+        counter.up();
+        System.out.println("After incrementing: " + counter.getNumber());
+
+        counter.down();
+        System.out.println("After decrementing: " + counter.getNumber());
+    }
+}
